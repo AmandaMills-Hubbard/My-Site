@@ -1,0 +1,85 @@
+*{
+  box-sizing: border-box;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+header{
+  width:100%;
+  height: 60px;
+  background: black;
+}
+
+
+header img, header li, header a, header form{
+  float: left;
+  color: white;
+  width:10%;
+  padding-top:10px;
+}
+header h1 img{
+  height: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+header a img{
+  height: 30px;
+}
+header ul{
+  list-style: none;
+}
+header li{
+  width: 5%;
+}
+.mainSec h2, .mainSec h4, .mainSec span, .mainSec p{
+  color:white;
+  font-weight: lighter;
+}
+.mainSec{
+  float: left;
+  width:45%;
+  height:400px;
+  border: 2px solid black;
+  background: lightgray;
+  margin-top:50px;
+  margin-bottom: 40px;
+}
+.mainSec:last-of-type section{
+  background-image: url(mini.jpg);
+}
+.mainSec:first-of-type{
+    background-image: url(bbcT.jpg);
+    background-position:top;
+    background-size: cover;
+    margin-left: 5%;
+}
+.mainSec:last-of-type{
+  margin-right: 5%;
+}
+.mainSec:last-of-type section{
+  height: 150px;
+  width: 45%;
+  margin: 1.25% 1.25% 1.25% 2.5%;
+  float: left;
+  border: 1px solid black;
+}
+.botSec{
+  height:400px;
+  margin-left: 100px;
+  border-bottom: solid black 4px;
+  clear: both;
+}
+.botSec h2::first-letter{
+  padding-left: 5px;
+  border-left: solid red 5px;
+}
+.botSec img{
+  height: 295px;
+  width: 27%;
+  margin: 1.9%;
+  border: 1px solid black;
+  float: left;
+  display: block;
+}

@@ -1,0 +1,47 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin-top: 50px;
+  background-image: url(cool.gif);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position:center;
+  text-align: center;
+}
+table{
+  display: inline-block;
+}
+h1, p, h2, th, td,tr{
+  color: rgb(213, 175, 56);
+  margin-top: 100px;
+  text-shadow: 2px 2px 3px black, 0 0 1em gray, 0 0 0.5em silver;
+}
+th:first-of-type{
+  padding-right:15px;
+}
+#status{
+  color: rgb(213, 175, 56);
+  text-shadow: 2px 2px 3px black, 0 0 1em gray, 0 0 0.5em silver;
+  font-size: 30px;
+}
+p, td, th{
+  font-size: 30px;
+}
+h1, p{
+  margin-bottom: 0;
+  margin-top: 30px;
+}
+button{
+  border-radius: 5px;
+  border-color: rgb(213, 175, 56);
+  padding:0;
+  width:auto;
+  height:52px;
+}
+button img{
+  border-radius: 5px;
+  height: 50px;
+  margin:0;
+  padding:0;
+}
